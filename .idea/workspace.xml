@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassicProgrammingProblems.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Main.kt" afterDir="false" />
+    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/binary_search/Binary_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/CSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Constraint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibonacci_sequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Go File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -55,13 +50,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Binary_Search.executor": "Run",
     "Application.Main.executor": "Run",
     "DefaultGoTemplateProperty": "Go File",
+    "Go Build.go build Main.go (1).executor": "Run",
     "Go Build.go build Main.go.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Node.js.Unnamed.executor": "Run",
     "Node.js.index.js.executor": "Run",
+    "Node.js.index.ts.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
@@ -94,7 +93,20 @@
       <recent name="$PROJECT_DIR$/fibonacci-sequence/go" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Binary_Search">
+    <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.Binary_Search" />
+      <module name="ClassicProgrammingProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="binary_search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fibonacci_sequence.Main" />
       <module name="ClassicProgrammingProblems" />
@@ -108,6 +120,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="go build Main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ClassicProgrammingProblems" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build Main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ClassicProgrammingProblems" />
       <working_directory value="$PROJECT_DIR$" />
@@ -116,31 +136,31 @@
       <filePath value="$PROJECT_DIR$/fibonacci-sequence/go/Main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibonacci_sequence.MainKt" />
-      <module name="ClassicProgrammingProblems" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" typescript-loader="bundled" working-dir="$PROJECT_DIR$/javascript/fibonacci-sequence">
+      <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Binary_Search" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Go Build.go build Main.go (1)" />
       <item itemvalue="Go Build.go build Main.go" />
-      <item itemvalue="Kotlin.MainKt" />
+      <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Binary_Search" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Go Build.go build Main.go (1)" />
         <item itemvalue="Go Build.go build Main.go" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.23" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.23" />
       </set>
     </attachedChunks>
   </component>
@@ -153,17 +173,29 @@
       <option name="presentableId" value="Default" />
       <updated>1721213507048</updated>
       <workItem from="1721213508078" duration="1662000" />
-      <workItem from="1722953554425" duration="580000" />
+      <workItem from="1722953554425" duration="1031000" />
+      <workItem from="1723054389000" duration="78000" />
+      <workItem from="1730147087767" duration="8258000" />
+      <workItem from="1730371405408" duration="684000" />
+      <workItem from="1731143252275" duration="1787000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1723053289034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723053289034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/fibonacci-sequence/javascript/index.js" />
-      </list>
-    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
