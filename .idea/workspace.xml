@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/binary_search/Binary_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/CSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/Constraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Maze.java" afterDir="false" />
+    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="Binary search in golang">
+      <change afterPath="$PROJECT_DIR$/src/binary_search/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci_sequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_sequence/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/binary_search/Main.go" beforeDir="false" afterPath="$PROJECT_DIR$/go/binary_search/Main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary_search/Binary_Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/binary_search/Binary_Search.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +18,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Class" />
+        <option value="Go File" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -33,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Nahasean94"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Nahasean94/ClassicProgrammingProblems.git",
+    "accountId": "01f1b19c-1929-4b60-ad73-f9f2604b1701"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/fibonacci_sequence/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,6 +63,7 @@
     "Application.Main.executor": "Run",
     "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build Main.go (1).executor": "Run",
+    "Go Build.go build Main.go (2).executor": "Run",
     "Go Build.go build Main.go.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Node.js.Unnamed.executor": "Run",
@@ -93,7 +103,7 @@
       <recent name="$PROJECT_DIR$/fibonacci-sequence/go" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Binary_Search">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="binary_search.Binary_Search" />
       <module name="ClassicProgrammingProblems" />
@@ -120,21 +130,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="go build Main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build Main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ClassicProgrammingProblems" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/go/fibonacci-sequence/Main.go" />
+      <filePath value="$PROJECT_DIR$/go/binary_search/Main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.MainKt" />
       <module name="ClassicProgrammingProblems" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/fibonacci-sequence/go/Main.go" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/javascript/fibonacci-sequence/index.js" typescript-loader="bundled" working-dir="$PROJECT_DIR$/javascript/fibonacci-sequence">
       <method v="2" />
@@ -142,17 +151,17 @@
     <list>
       <item itemvalue="Application.Binary_Search" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Go Build.go build Main.go (1)" />
-      <item itemvalue="Go Build.go build Main.go" />
+      <item itemvalue="Go Build.go build Main.go (2)" />
+      <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Go Build.go build Main.go (2)" />
         <item itemvalue="Application.Binary_Search" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Go Build.go build Main.go (1)" />
-        <item itemvalue="Go Build.go build Main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +186,7 @@
       <workItem from="1723054389000" duration="78000" />
       <workItem from="1730147087767" duration="8258000" />
       <workItem from="1730371405408" duration="684000" />
-      <workItem from="1731143252275" duration="1787000" />
+      <workItem from="1731143252275" duration="3205000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -187,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723053289034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added binary search">
+      <option name="closed" value="true" />
+      <created>1731436559135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731436559135</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Binary search in golang">
+      <option name="closed" value="true" />
+      <created>1731437064772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731437064772</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +220,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added binary search" />
+    <MESSAGE value="Binary search in golang" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search in golang" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

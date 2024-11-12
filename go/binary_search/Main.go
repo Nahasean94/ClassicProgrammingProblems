@@ -1,5 +1,7 @@
 package main
 
+//Look up if a number is in an array
+
 func binarySearch(nums []int, target int) bool {
 	left := 0
 	right := len(nums) - 1
@@ -7,12 +9,18 @@ func binarySearch(nums []int, target int) bool {
 		mid := left + (right-left)/2
 		if nums[mid] == target {
 			return true
+		} else if target < nums[mid] {
+			right = mid - 1
+		} else {
+			left = mid + 1
 		}
-		left = mid + 1
 	}
 	return false
 
 }
+
+//Look up the first index that contains the value
+
 func conditionalSearch(booleans []bool, target bool) int {
 	left := 0
 	right := len(booleans) - 1
