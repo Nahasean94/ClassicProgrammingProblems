@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="kotlin">
-      <change afterPath="$PROJECT_DIR$/javascript/binary_search/index.js" afterDir="false" />
+    <list default="true" id="34458e39-fe0b-452d-9b39-f08a0d299d54" name="Changes" comment="Binary search in javascript">
+      <change afterPath="$PROJECT_DIR$/src/binary_search_tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +17,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="Class" />
         <option value="Go File" />
         <option value="Kotlin File" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -27,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nahasean94"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Nahasean94&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nahasean94/ClassicProgrammingProblems.git",
-    "accountId": "01f1b19c-1929-4b60-ad73-f9f2604b1701"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Nahasean94/ClassicProgrammingProblems.git&quot;,
+    &quot;accountId&quot;: &quot;01f1b19c-1929-4b60-ad73-f9f2604b1701&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/fibonacci_sequence/Main.java" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -56,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BST.executor": "Run",
     "Application.Binary_Search.executor": "Run",
     "Application.Main.executor": "Run",
     "DefaultGoTemplateProperty": "Go File",
@@ -83,6 +85,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -101,13 +104,13 @@
       <recent name="$PROJECT_DIR$/fibonacci-sequence/go" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (1)">
-    <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary_search.Binary_Search" />
+  <component name="RunManager" selected="Application.BST">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search_tree.BST" />
       <module name="ClassicProgrammingProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="binary_search.*" />
+          <option name="PATTERN" value="binary_search_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fibonacci_sequence.Main" />
+    <configuration name="Binary_Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="binary_search.Binary_Search" />
       <module name="ClassicProgrammingProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fibonacci_sequence.*" />
+          <option name="PATTERN" value="binary_search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,27 +150,27 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.BST" />
       <item itemvalue="Application.Binary_Search" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Go Build.go build Main.go (2)" />
       <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Node.js.index.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BST" />
         <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Go Build.go build Main.go (2)" />
         <item itemvalue="Application.Binary_Search" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.23" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.23" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
@@ -184,7 +187,9 @@
       <workItem from="1723054389000" duration="78000" />
       <workItem from="1730147087767" duration="8258000" />
       <workItem from="1730371405408" duration="684000" />
-      <workItem from="1731143252275" duration="4184000" />
+      <workItem from="1731143252275" duration="4577000" />
+      <workItem from="1732035702633" duration="316000" />
+      <workItem from="1732036157755" duration="4149000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -218,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731438012123</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Binary search in javascript">
+      <option name="closed" value="true" />
+      <created>1731439384776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731439384776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +242,8 @@
     <MESSAGE value="Added binary search" />
     <MESSAGE value="Binary search in golang" />
     <MESSAGE value="kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="kotlin" />
+    <MESSAGE value="Binary search in javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary search in javascript" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
